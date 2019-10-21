@@ -1,0 +1,23 @@
+table tr.highlight{
+    background-color:rgb(34, 209, 101) !important;
+}
+.td{
+    font-size: 19px;
+    }
+    table {
+        width: 100%;
+        font: 14px Verdana;
+    }
+    table, th, td {
+        border: solid 1px #999999;
+        border-collapse: collapse;
+        padding: 2px 3px;
+        text-align: center;
+    }
+    th {
+        font-weight: bold;
+    }
+
+    table tr.highlight1{
+        background-color:rgb(138, 134, 125) !important;
+    }
