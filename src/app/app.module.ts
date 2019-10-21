@@ -7,18 +7,20 @@ import { TableComponent } from './table/table.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { FilterPipeModule } from 'ngx-filter-pipe';
+
+import { SearchPipe } from './search.pipe';
 @NgModule({
   declarations: [
     AppComponent,
-    TableComponent
+    TableComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     CommonModule,
-    FilterPipeModule,
+ 
   FormsModule
   ],
   providers: [],

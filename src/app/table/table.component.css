@@ -1,5 +1,5 @@
 table tr.highlight{
-    background-color:rgb(34, 209, 101) !important;
+    background-color:powderblue ;
 }
 .td{
     font-size: 19px;
@@ -19,5 +19,10 @@ table tr.highlight{
     }
 
     table tr.highlight1{
-        background-color:rgb(138, 134, 125) !important;
+       
+        background-color:rgb(34, 209, 101) !important;
     }
+
+    thead{
+        background-color:gray ; 
+        }

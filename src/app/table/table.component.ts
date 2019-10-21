@@ -4,6 +4,7 @@ import { Subscription,timer  } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 
 
+
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
@@ -17,8 +18,9 @@ export class TableComponent implements OnInit {
   email: any;
   subscription: Subscription;
   th: any=Number;
-  term:any= { title:'' };
   selectedName1: any;
+
+
   constructor(private table:TableService) { }
 
   ngOnInit() {
@@ -32,20 +34,10 @@ export class TableComponent implements OnInit {
         
         );
 
-    // this.table.getdata().subscribe(resp=>{console.log(resp)
-    //   this.details=resp;
-      //this.details=this.data.result
-    // })
+    
   }
   
-  // click(data){
-  //   console.log(data,"i value")
-
-
-  // //   this.id=data.id;
-  // //   this.name=data.name;
-  // //  this.email=data.eamil
-  // }
+  
   button(id){
     console.log(id)
    this.th=id;
@@ -56,7 +48,7 @@ export class TableComponent implements OnInit {
     });
     }
     changeBackground(){
-      
+
     }
 
 
